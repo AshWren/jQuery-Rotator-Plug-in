@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>jQuery Rotator Plugin</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="container">
+    <div id="heroRotator">
+        <div class="slider">
+            
+            <div class="slide"><img src="http://placehold.it/350x150" alt=""></div>
+            <div class="slide"><img src="http://placehold.it/350x150" alt=""></div>
+            <div class="slide"><img src="http://placehold.it/350x150" alt=""></div>
+            <div class="slide"><img src="http://placehold.it/350x150" alt=""></div>
+            <div class="pager"></div>
+            <div class="prev">
+                <img src="http://placehold.it/50x50" alt="">
+            </div>
+            <div class="next">
+                <img src="http://placehold.it/50x50" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+<script src="scripts/main.js"></script>
+  
+    
+
+  <script>
+    $(function () {
+            $("#heroRotator").slider();
+        });
+</script> 
+
+
+
+</body>
+
+</html>
